@@ -285,11 +285,13 @@
     margin:auto; */
     /* padding:0px; */
     /* padding-top:9px; */
-    line-height: 1.4rem;
+    /* line-height: 1.4rem; */
     /* padding-bottom:9px;
     padding-top:9px; */
-
-    
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:9px;
+    padding-bottom:9px;
 }
 
 .vertical
