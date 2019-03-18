@@ -576,7 +576,7 @@ h1 span::after{
     bottom: 0; 
     width: 100%; 
     height: 1px; 
-    border-bottom: 4px dotted    #596773; 
+    border-bottom: 4px solid    #596773; 
     content: "";
     /* margin:auto; */
 }
