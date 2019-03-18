@@ -56,9 +56,10 @@
 }
 
 .logo-symbol {
-    background: url("../img/logo-symbol.png");
-    width: 43px;
-    height: 66px;
+    /* background: url("../img/logo-symbol.png"); */
+    background: url("../img/somislav.png");
+    width: 125px;
+    height: 108.5504154502582528632382663373px;
     background-size: 100% 100%
 }
 
