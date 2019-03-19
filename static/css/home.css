@@ -77,7 +77,8 @@
 }
 
 .section-navigation .navbar {
-    padding: 0
+    padding: 0;
+    background-color: #196eb4;
 }
 
 @media (min-width: 1200px) {
