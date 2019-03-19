@@ -47,10 +47,10 @@
                             <a class="nav-link" href="#sectionMission">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sectionAngelInvestors">Our Work</a>
+                            <a class="nav-link" href="#sectionTeam">Our Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#footerContact">Sample Projects</a>
+                            <a class="nav-link" href="#footerContact">Contact</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link btn btn-small btn-success" href="#footerContact" style="color: white">Contact</a>
@@ -143,99 +143,6 @@
         </div>
     </div>
     <!-- End mission -->
-
-    <!-- Angel investors2 -->
-    <div id="sectionAngelInvestors" class="section section-gray section-angel-investors">
-        <div class="container">
-            <div class="text-center">
-                <h1 style="text-align: center;"><span>Our Work</span></h1>
-            </div>
-            <div class="content">
-                <div class="row">
-
-                    <li class="media my-4">
-                        <i class="fal fa-chart-bar fa-fw" style="font-size:2rem;color:#196eb4"></i>
-                        <div class="media-body ml-2 text-justify">
-                            <h3 class="my-0" style="color: #596773;">Data visualization</h3>
-                            <p>A picture is worth a thousand
-                                words – especially when you are trying to understand and discover
-                                insights from data. We use state-of-the-art visualization
-                                techniques to create meaningful, easy to understand, static,
-                                dynamic, and interactive plots of your data. The purpose of
-                                data visualization is to assist reasoning about its content. It
-                                can be used as an interface between the domain expert and the data,
-                                as the technical skills required to cope with data are
-                                minimized through intuitive interface.</p>
-                        </div>
-                    </li>
-
-                    <li class="media my-4">
-                        <i class="fal fa-brain fa-fw" style="font-size:2rem;color:#196eb4"></i>
-                        <div class="media-body ml-2 text-justify">
-                            <h3 class="my-0" style="color: #596773;">Machine Learning and A.I.</h3>
-                            <p>A picture is worth a
-                                thousand
-                                words – especially when you are trying to understand and discover
-                                insights from data. We use state-of-the-art visualization
-                                techniques to create meaningful, easy to understand, static,
-                                dynamic, and interactive plots of your data. The purpose of
-                                data visualization is to assist reasoning about its content. It
-                                can be used as an interface between the domain expert and the data,
-                                as the technical skills required to cope with data are
-                                minimized through intuitive interface.</p>
-                        </div>
-                    </li>
-
-                    <li class="media my-4">
-                        <i class="fal fa-industry-alt fa-fw" style="font-size:2rem;color:#196eb4"></i>
-                        <div class="media-body ml-2 text-justify">
-                            <h3 class="my-0" style="color: #596773;">Outlier detection</h3>
-                            <p>A picture is worth a
-                                    thousand
-                                    words – especially when you are trying to understand and discover
-                                    insights from data. We use state-of-the-art visualization
-                                    techniques to create meaningful, easy to understand, static,
-                                    dynamic, and interactive plots of your data. The purpose of
-                                    data visualization is to assist reasoning about its content. It
-                                    can be used as an interface between the domain expert and the data,
-                                    as the technical skills required to cope with data are
-                                    minimized through intuitive interface.</p>
-                        </div>
-                    </li>
-
-                    <li class="media my-4">
-                        <i class="fal fa-hand-holding-box fa-fw" style="font-size:2rem;color:#196eb4"></i>
-                        <div class="media-body ml-2 text-justify">
-                            <h3 class="my-0" style="color: #596773;">Recommender systems</h3>
-                            <p>A picture is worth a
-                                    thousand
-                                    words – especially when you are trying to understand and discover
-                                    insights from data. We use state-of-the-art visualization
-                                    techniques to create meaningful, easy to understand, static,
-                                    dynamic, and interactive plots of your data. The purpose of
-                                    data visualization is to assist reasoning about its content. It
-                                    can be used as an interface between the domain expert and the data,
-                                    as the technical skills required to cope with data are
-                                    minimized through intuitive interface.</p>
-                        </div>
-                    </li>
-
-                    <!-- <div class="col-lg-6 col-md-18 text-justify">
-                        <p>Artificial Intelligence and Machine Learning based solutions are slowly becoming industry
-                            standards in modern products and services in every niche. Machine learning algorithms use a
-                            variety of computational methods to learn information directly from data without relying on
-                            a predefined equation as a model and adaptively improve their performance as the number of
-                            available learning samples increases.</p>
-                    </div> -->
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End angel investors2 -->
-
 
 
     <!-- Team -->
@@ -605,7 +512,7 @@
     <!-- End investors -->
 
     <!-- Angel investors -->
-    <div id="sectionAngelInvestors2" class="section section-gray section-angel-investors">
+    <div id="sectionAngelInvestors" class="section section-gray section-angel-investors">
         <div class="container">
             <div class="text-center">
                 <h1>Angel investors</h1>
@@ -780,29 +687,29 @@ crossorigin="anonymous"></script> -->
     <!-- <script src="static/js/common.js"></script> -->
     <!-- <script src="static/js/common.js"></script> -->
 
-    <script>
-        // Get the current year for the copyright
-        // $('#year').text(new Date().getFullYear());
+  <script>
+    // Get the current year for the copyright
+    // $('#year').text(new Date().getFullYear());
 
-        // Init Scrollspy
-        // $('body').scrollspy({ target: '#main-nav' });
+    // Init Scrollspy
+    // $('body').scrollspy({ target: '#main-nav' });
 
-        // Smooth Scrolling
-        $("#main-nav a").on('click', function (event) {
-            if (this.hash !== "") {
-                event.preventDefault();
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
 
-                const hash = this.hash;
+        const hash = this.hash;
 
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function () {
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
 
-                    window.location.hash = hash;
-                });
-            }
+          window.location.hash = hash;
         });
-    </script>
+      }
+    });
+  </script>
 
 
     <!-- End common js -->
