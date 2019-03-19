@@ -62,8 +62,8 @@
     /* background: url("../img/somislav.png"); */
     /* width: 125px;
     height: 108.55px; */
-    width: 291px;
-    height: 91px;
+    width: 287px;
+    height: 90px;
     background-size: 100% 100%;
     /* margin-left: -10px; */
 }
@@ -568,12 +568,12 @@ button:focus {
     margin: auto;
   }
 
-  h1 span {
+  /* h1 span {
     position: relative;
     padding-bottom: 0px;
-}
+} */
 
-h1 span::after{
+/* h1 span::after{
     position: absolute; 
     left: 0; 
     bottom: 0; 
@@ -581,8 +581,8 @@ h1 span::after{
     height: 1px; 
     border-bottom: 4px dotted    #596773; 
     content: "";
-    /* margin:auto; */
-}
+    margin:auto;
+} */
 
 
 /* banner */
@@ -624,11 +624,11 @@ h1 span::after{
 
   @keyframes anim2 {
     0% {
-        transform: scale(0,0);
+        /* transform: scale(0,0); */
       opacity: 0;
     }
     100% {
-        transform: scale(1,1);
+        /* transform: scale(1,1); */
       opacity: 1;
     }
   }
