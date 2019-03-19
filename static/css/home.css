@@ -57,12 +57,15 @@
 
 .logo-symbol {
     /* background: url("../img/logo-symbol.png"); */
-    background: url("../img/somislav.png");
+    /* background: url("../img/somislav5.svg"); */
+    background: url("../img/logofinal1.png");
+    /* background: url("../img/somislav.png"); */
     /* width: 125px;
     height: 108.55px; */
-    width: 125px;
-    height: 108.55px;
-    background-size: 100% 100%
+    width: 320px;
+    height: 84px;
+    background-size: 100% 100%;
+    margin-left: -10px;
 }
 
 .logo-copy {
