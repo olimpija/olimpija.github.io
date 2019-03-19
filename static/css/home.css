@@ -58,12 +58,12 @@
 .logo-symbol {
     /* background: url("../img/logo-symbol.png"); */
     /* background: url("../img/somislav5.svg"); */
-    background: url("../img/logofinal1.png");
+    background: url("../img/runrunrunaway1.png");
     /* background: url("../img/somislav.png"); */
     /* width: 125px;
     height: 108.55px; */
-    width: 320px;
-    height: 84px;
+    width: 335px;
+    height: 105px;
     background-size: 100% 100%;
     margin-left: -10px;
 }
@@ -579,7 +579,7 @@ h1 span::after{
     bottom: 0; 
     width: 100%; 
     height: 1px; 
-    border-bottom: 4px solid    #596773; 
+    border-bottom: 6px dotted    #596773; 
     content: "";
     /* margin:auto; */
 }
