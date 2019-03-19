@@ -634,3 +634,12 @@ button:focus {
     }
   }
 
+  @media only screen and (max-width: 768px) {
+    .nav-menu .navbar-collapse {
+      /* background: linear-gradient(rgba(102, 45, 145, 1), rgba(102, 45, 145, 1)); */
+      margin-left: 0rem;
+      /* padding: 30px;
+    transition: all .7s; */
+    }
+  }
+
