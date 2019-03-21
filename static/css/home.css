@@ -70,18 +70,18 @@
 
 .logo,
 .logo-symbol {
-    display: inline-block
+    display: inline-block;
 }
 
 .logo-symbol {
     /* background: url("../img/logo-symbol.png"); */
     /* background: url("../img/somislav5.svg"); */
     /* background: url("../img/runrunrunaway1.png"); */
-    background: url("../img/asset_55.svg");
+    background: url("../img/ds3.png");
     /* background: url("../img/somislav.png"); */
     /* width: 125px;
     height: 108.55px; */
-    width: 50px;
+    width: 48.56px;
     height: 40px;
     background-size: 100% 100%;
     /* margin-left: -10px; */
