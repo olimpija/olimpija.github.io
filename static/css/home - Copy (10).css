@@ -1,18 +1,16 @@
 
 .section-blue,
-.section-dark-blue {
-    background-color: #196eb4;
+.section-dark-blue .section-navigation {
+    /* background-color: #196eb4; */
     /* background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg) no-repeat center center /cover; */
-    /* background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg) no-repeat center center /cover; */
+    background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg) no-repeat center center /cover;
     /* background-color: #624963; */
     /* background-color: #196eb4; */
     color: #fff
 }
 
 .overlej {
-    position:relative;
-    background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg) no-repeat center center /cover;
-    z-index:3;
+    background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg);
 }
 
 /* .section-tagline {
@@ -104,15 +102,13 @@
 }
 
 .section-navigation .navbar {
-    position: fixed;
     padding: 0;
-    background-color: #196eb4;
-    /* background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg) no-repeat center center /cover; */
+    /* background-color: #196eb4; */
+    background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg)
     /* background-color: #624963; */
     /* background-color: #443247; */
     /* background-color: #624963; */
     /* background-color: #443247; */
-    z-index:1;
 }
 
 @media (min-width: 1200px) {
@@ -224,7 +220,6 @@
 .section-tagline {
     /* background: linear-gradient(rgba(102, 45, 145, .4), rgba(102, 45, 145, .5)), url(images/road.jpg) no-repeat center center /cover; */
     /* padding: 3rem 0rem 5rem; */
-    
     padding: 5rem 0rem 5rem;
    
 }
