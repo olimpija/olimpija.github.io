@@ -826,27 +826,4 @@ h1 span::after{
 } */
 
 
-.concept {
-    color: #ffffff;
-    position: relative;
-    font-weight: 500;
-    cursor: pointer;
-  }
-
-  .nav-link.active::before {
-    /* font-family: "Font Awesome 5 Pro";
-    font-weight: 300; */
-
-    margin-right: 2px;
-    content: "[";
-    color: #ffffff;
-} 
-
-.nav-link.active::after {
-    margin-left: 2px;
-    color: #ffffff;
-    content: "]";
-}
-
-
 
