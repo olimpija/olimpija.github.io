@@ -1,3 +1,4 @@
+
 .section-blue,
 .section-dark-blue {
     /* background-color: #196eb4; */
@@ -10,9 +11,9 @@
 }
 
 .overlej {
-    position: relative;
+    position:relative;
     background: linear-gradient(rgba(25, 110, 180, .8), rgba(25, 110, 180, .8)), url(../img/road.jpg) no-repeat center center /cover;
-    z-index: 3;
+    z-index:3;
 }
 
 /* .section-tagline {
@@ -91,19 +92,13 @@
 }
 
 .logo-copy {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0 0 0 0.2rem;
 }
 
 .logo-copy2 {
-    font-size: 1.5em;
-    color: #e4eaef;
-    margin: 0 0 0 0rem;
-}
-
-.logo-copy3 {
-    font-size: 1.5em;
-    color: #69aee9;
+    font-size: 1.2em;
+    color:#e4eaef;
     margin: 0 0 0 0rem;
 }
 
@@ -122,7 +117,7 @@
     /* background-color: #443247; */
     /* background-color: #624963; */
     /* background-color: #443247; */
-    z-index: 1;
+    z-index:1;
 }
 
 @media (min-width: 1200px) {
@@ -147,26 +142,12 @@
 .section-navigation .navbar-toggler:active,
 .section-navigation .navbar-toggler:focus,
 .section-navigation .navbar-toggler:hover {
-    /* background: #095797; */
-    background: #0C2940;
-
+    background: #095797;
 }
 
 .section-navigation .navbar-nav {
     margin: 1rem 0 0;
-    /* background: #095797; */
-    background: #0C2940;
-}
-
-/* .section-navigation .navbar-nav .nav-item {
-    border-bottom: 1px solid #596773;
-} */
-
-
-
-
-.navbar-collapse .nav-item {
-    /* border-bottom: 1px solid #596773; */
+    background: #095797
 }
 
 
@@ -180,19 +161,13 @@
 
 .section-navigation .nav-link {
     padding: .5rem;
-    font-size: 1.2rem;
+    font-size:1.2rem;
 }
 
-/* .section-navigation .nav-link:hover,
+.section-navigation .nav-link:hover,
 .section-navigation .navbar .active .nav-link {
-    color: #69aee9;
-    color: #8ac6f7;
-} */
-.section-navigation .nav-link:hover {
     /* color: #69aee9; */
-    /* color: #8ac6f7; */
-    color: #bfe1ff;
-
+    color: #8ac6f7;
 }
 
 .section-contact {
@@ -255,9 +230,9 @@
 .section-tagline {
     /* background: linear-gradient(rgba(102, 45, 145, .4), rgba(102, 45, 145, .5)), url(images/road.jpg) no-repeat center center /cover; */
     /* padding: 3rem 0rem 5rem; */
-
+    
     padding: 5rem 0rem 5rem;
-
+   
 }
 
 .section-tagline h1 {
@@ -366,15 +341,16 @@
     /* line-height: 1.4rem; */
     /* padding-bottom:9px;
     padding-top:9px; */
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:9px;
+    padding-bottom:9px;
 }
 
-.vertical {
-    display: inline-flex;
-    align-items: center;
+.vertical
+{
+  display: inline-flex;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -636,17 +612,17 @@ button:focus {
 
 
 .d-inline.mx-auto.center {
-    text-align: center !important;
-    display: block !important;
+    text-align: center!important;
+    display:block!important;
 }
 
 .underline {
     width: 162px;
     border: 3px double #596773;
     margin: auto;
-}
+  }
 
-/* h1 span {
+  /* h1 span {
     position: relative;
     padding-bottom: 0px;
 }
@@ -670,136 +646,97 @@ h1 span::after{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-}
-
-.banner-heading {
+  }
+  
+  .banner-heading {
     animation-name: anim;
     animation-duration: 2s;
-}
+  }
 
-.banner-logo {
+  .banner-logo {
     animation-name: anim2;
     animation-duration: 2s;
-}
-
-.banner-par {
+  }
+  
+  .banner-par {
     animation-name: anim;
     animation-duration: 2s;
     animation-delay: .5s;
     animation-fill-mode: backwards;
-}
-
-@keyframes anim {
+  }
+  
+  @keyframes anim {
     0% {
-        transform: translateX(-100px);
-        opacity: 0;
+      transform: translateX(-100px);
+      opacity: 0;
     }
-
     100% {
-        transform: translateX(0);
-        opacity: 1;
+      transform: translateX(0);
+      opacity: 1;
     }
-}
+  }
 
-@keyframes anim2 {
+  @keyframes anim2 {
     0% {
         /* transform: scale(0,0); */
-        opacity: 0;
+      opacity: 0;
     }
-
     100% {
         /* transform: scale(1,1); */
-        opacity: 1;
+      opacity: 1;
     }
-}
+  }
 
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .nav-menu .navbar-collapse {
-        /* background: linear-gradient(rgba(102, 45, 145, 1), rgba(102, 45, 145, 1)); */
-        margin-left: 0rem;
-        /* padding: 30px;
+      /* background: linear-gradient(rgba(102, 45, 145, 1), rgba(102, 45, 145, 1)); */
+      margin-left: 0rem;
+      /* padding: 30px;
     transition: all .7s; */
     }
+  }
 
-    .navbar-collapse .nav-item {
-        border-bottom: 1px solid #596773;
-    }
-}
-
-/* .navbar-nav .nav-item{
+  /* .navbar-nav .nav-item{
 
     border-bottom: 1px solid #596773;
     } */
 
-/* .navbar-expand-md{
+    /* .navbar-expand-md{
         background: #005986;
-      } */
-
-/* .navbar-nav {
-        border: 5px;
+      }
+      .navbar-nav {
+        border: 0;
         border-radius: 0;
       } */
 
-
-/* ul.navbar-nav  {
+ 
+      /* ul.navbar-nav  {
         list-style: none;
         border-right: 1px solid #84B6D0;
       } */
-
-/* ul.navbar-nav li {
+      
+      /* ul.navbar-nav  li {
         padding: 0px 0;
         display: inline-block;
       }
-      ul.navbar-nav li a {
+      ul.navbar-nav  li a {
         padding: 0px 10px;
         color: #fff;
         position: relative;
       }
-      ul.navbar-nav li a:after {
+      ul.navbar-nav  li a:after {
         position: absolute;
-        font-family: "Font Awesome 5 Pro";
-        font-weight: 300;
-        content: "[";
+        content: "";
         width: 1px;
-        height: 100%;
+        height: 50%;
         right: 0;
         background: #e4eaef ;
         top: 50%;
         transform: translate(0, -50%);
       } */
 
-.nav-link.active {
-    color: #8ac6f7;
-    /* margin-bottom:0px; */
-    /* padding-bottom: 0px; */
-    /* border-bottom: 2px solid #ffffff; */
-    /* border-left: 2px solid #8ac6f7;
-        border-right: 2px solid #8ac6f7; */
-    /* background-color: #ffffff; */
-}
-
-
-.nav-link.active::before {
-    margin-right: 5px;
-    /* font-family: "Font Awesome 5 Pro";
-    font-weight: 300; */
-    content: "[";
-    color: #ffffff;
-}
-
-.nav-link.active::after {
-    margin-left: 5px;
-    color: #ffffff;
-    content: "]";
-}
-
-/* #magic-line {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100px;
-    height: 4px;
-    background: #fe4902;
-} */
-
+      .nav-link.active {
+        color: #69aee9;
+        /* background-color: #ffffff; */
+    }
 

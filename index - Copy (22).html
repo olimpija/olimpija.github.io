@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="static/css/loveme.css">
     <link rel="stylesheet" href="static/css/home.css">
     <link rel="stylesheet" href="static/css/styler.css">
-    <!-- <link rel="stylesheet" href="static/css/anchorHoverEffect.css"> -->
+    <link rel="stylesheet" href="static/css/anchorHoverEffect.css">
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet"> -->
 
     <title>Bloomsbury AI</title>
@@ -33,8 +33,7 @@
                     <a class="navbar-brand" href="index.html">
                         <span class="d-flex flex-row align-items-center logo">
                             <span class="logo-symbol banner-logo"></span>
-                            <span class="logo-copy">Olympia</span>
-                            <span class="logo-copy3">.</span>
+                            <span class="logo-copy">Olympia.</span>
                             <span class="logo-copy2">AI</span>
                             <!-- <span class="logo-copy">Olympia<br>DataScience</span> -->
                         </span>
@@ -48,7 +47,7 @@
                         <!-- <span class="sprite sprite-menu"></span> -->
                     </button>
                     <div id="navbarContent" class="collapse navbar-collapse">
-                        <ul class="navbar-nav ml-auto mt-auto cl-effect-14">
+                        <ul class="navbar-nav ml-auto mt-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#home">Home</a>
                             </li>
@@ -795,7 +794,7 @@ crossorigin="anonymous"></script> -->
     <!-- <script src="static/bs/js/bootstrap.bundle.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="static/js/nigga.js"></script>
-    <!-- <script src="static/js/anchorHoverEffect.js"></script> -->
+    <script src="static/js/anchorHoverEffect.js"></script>
 
     <!-- MDB core JavaScript -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script> -->
@@ -851,12 +850,18 @@ crossorigin="anonymous"></script> -->
     </script>
 
 
-    <!-- <script>
-        $(".navbar-nav li").anchorHoverEffect({
+    <script>
+        $(".demo-1 a").anchorHoverEffect();
+        $(".demo-2 a").anchorHoverEffect({
             type: 'brackets'
         });
- 
-    </script> -->
+        $(".demo-3 a").anchorHoverEffect({
+            type: 'flip'
+        });
+        $(".demo-4 a").anchorHoverEffect({
+            type: 'borderBottom'
+        });
+    </script>
 
 
     <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
